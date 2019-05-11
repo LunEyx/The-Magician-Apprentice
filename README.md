@@ -1,6 +1,7 @@
 # The Magician Apprentice
 ---
 A game witch the player as a wizard.
+
 A project using Three.js and Cannon.js
 
 # Work Distribution
