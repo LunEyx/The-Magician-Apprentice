@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Magician's Apprentice</title>
+    <link rel="stylesheet" href="./css/index.css" type="text/css" media="all">
+  </head>
+  <body onclick="this.requestPointerLock(); start();">
+    <div id="stats"></div>
+    <div id="magic">Fireball</div>
+    <div id="blocker">
+      <div id="instructions">
+        <!-- <span style="font-size:40px">Click To Start</span> -->
+        <!-- <br /> -->
+        <!-- (W, A, S, D = Control Direction, SPACE = Jump, MOUSE = Move Camera) -->
+      </div>
+    </div>
+    <div id="gameName">The Magician's Apprentice</div>
+    <div id="notification">CLICK TO START</div>
+    <div id="objectives"></div>
+    <div id="hp"></div>
+    <div id="mp"></div>
+    <div id="power"></div>
+
+    <!-- External Libraries -->
+
+    <!-- Three.js r98 -->
+    <script src="./lib/three.min.js"></script>
+    <!-- Stats.js r16 -->
+    <script src="./lib/Stats.min.js"></script>
+    <!-- dat.gui.js 0.7.5 -->
+    <script src="./lib/dat.gui.min.js"></script>
+    <!-- PointerLockControls -->
+    <script src="./lib/PointerLockControls.js"></script>
+    <!-- Cannon.js 0.6.2 -->
+    <script src="./lib/cannon.min.js"></script>
+    <!--  CannonDebugRenderer -->
+    <script src="./lib/CannonDebugRenderer.js"></script>
+
+    <!-- Modules -->
+    <script src="./js/sceneManager.js"></script>
+    <script src="./js/setting.js"></script>
+
+    <script src="./js/player.js"></script>
+    <script src="./js/pointerLockControls.js"></script>
+    <script src="./js/dynamicLightSource.js"></script>
+    <script src="./js/explosion.js"></script>
+    <script src="./js/fireball.js"></script>
+    <script src="./js/wall.js"></script>
+    <script src="./js/blackhole.js"></script>
+    <script src="./js/magic.js"></script>
+    <script src="./js/lamp.js"></script>
+    <script src="./js/boss.js"></script>
+    <script src="./js/bossAlias.js"></script>
+    <script src="./js/datGUI.js"></script>
+
+    <script src="./js/blockObject.js"></script>
+    <script src="./js/block.js"></script>
+    <script src="./js/simpleObject.js"></script>
+    <script src="./js/scene.js"></script>
+    <script src="./js/scene/level1.js"></script>
+    <script src="./js/scene/level2.js"></script>
+    <script src="./js/scene/level3.js"></script>
+    <script src="./js/scene/level4.js"></script>
+
+    <!-- Entry Point -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>
+
